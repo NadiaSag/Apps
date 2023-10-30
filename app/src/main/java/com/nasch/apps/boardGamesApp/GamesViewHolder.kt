@@ -21,6 +21,7 @@ class GamesViewHolder(view: View) : RecyclerView.ViewHolder(view) {
             tvGameName.paintFlags = tvGameName.paintFlags and Paint.STRIKE_THRU_TEXT_FLAG.inv()
         }
         cbGame.isChecked = game.isSelected
+
         cbGame.setOnClickListener() {
             if (cbGame.isChecked) {
                 tvGameName.paintFlags = tvGameName.paintFlags or Paint.STRIKE_THRU_TEXT_FLAG

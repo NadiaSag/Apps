@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import com.nasch.apps.IMC.IMC
 import com.nasch.apps.boardGamesApp.boardGamesActivity
+import com.nasch.apps.boardGamesApp.colorPaletteActivity
 
 class MenuActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,6 +24,9 @@ class MenuActivity : AppCompatActivity() {
 
         var btnboardGamesActivity = findViewById<Button>(R.id.btnBoardGames)
         btnboardGamesActivity.setOnClickListener{ navigateBoardGamesApp() }
+
+        var btnColorPalette = findViewById<Button>(R.id.btnColorPalette)
+        btnColorPalette.setOnClickListener{ navigateToColorPalette() }
 
     }
 
@@ -43,6 +47,11 @@ class MenuActivity : AppCompatActivity() {
 
     private fun navigateBoardGamesApp(){
         var intent = Intent(this, boardGamesActivity::class.java)
+        startActivity(intent)
+    }
+
+    private fun navigateToColorPalette() {
+        var intent = Intent(this, colorPaletteActivity::class.java)
         startActivity(intent)
     }
 }
