@@ -1,0 +1,9 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#E2A9E8"/> <!-- Color de fondo del cuadro -->
+    <corners android:radius="16dp"/> <!-- Bordes redondeados del cuadro -->
+    <padding
+        android:left="16dp"
+        android:top="8dp"
+        android:right="16dp"
+        android:bottom="8dp"/> <!-- Margen interno del cuadro -->
+</shape>

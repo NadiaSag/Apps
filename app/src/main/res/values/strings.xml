@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Apps</string>
+    <string name="write_your_name">Write your name</string>
+    <string name="height">Set your height</string>
+    <string name="boardgames">Board Games</string>
+    <string name="categories">Categories</string>
+    <string name="games">GAMES</string>
+    <string name="dialog_add_game">Add a new game</string>
+    <string name="dialog_cooperative_category">Cooperative</string>
+    <string name="dialog_deckbuilding_category">Deckbuilding</string>
+    <string name="dialog_eurogames_category">Eurogames</string>
+    <string name="dialog_legacy_category">Legacy</string>
+    <string name="dialog_LCG_category">Living Card Games</string>
+    <string name="dialog_newgame_button">New game</string>
+</resources>
