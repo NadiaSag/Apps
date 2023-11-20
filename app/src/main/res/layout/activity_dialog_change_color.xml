@@ -60,7 +60,7 @@
                android:id="@+id/H120"
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
-               android:backgroundTint="@color/white"
+               app:buttonTint="@color/black_20"
                android:text="H1 20%"
                android:textColor="@color/white">
 
@@ -71,7 +71,7 @@
                    android:id="@+id/H250"
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
-                   android:backgroundTint="@color/white"
+                   app:buttonTint="@color/black_50"
                    android:text="H2 50%"
                    android:textColor="@color/white">
 
@@ -82,7 +82,7 @@
                    android:id="@+id/H380"
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
-                   android:backgroundTint="@color/white"
+                   app:buttonTint="@color/black_80"
                    android:text="H3 80%"
                    android:textColor="@color/white">
 
@@ -93,7 +93,7 @@
                    android:id="@+id/V120"
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
-                   android:backgroundTint="@color/white"
+                   app:buttonTint="@color/black_20"
                    android:text="V1 20%"
                    android:textColor="@color/white">
                </RadioButton>
@@ -102,7 +102,7 @@
                    android:id="@+id/V235"
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
-                   android:backgroundTint="@color/white"
+                   app:buttonTint="@color/black_35"
                    android:text="V2 35%"
                    android:textColor="@color/white">
 
@@ -113,7 +113,7 @@
                    android:id="@+id/V350"
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
-                   android:backgroundTint="@color/white"
+                   app:buttonTint="@color/black_50"
                    android:text="V3 50%"
                    android:textColor="@color/white">
 
@@ -124,7 +124,7 @@
                    android:id="@+id/V465"
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
-                   android:backgroundTint="@color/white"
+                   app:buttonTint="@color/black_65"
                    android:text="V4 65%"
                    android:textColor="@color/white">
 
@@ -135,7 +135,7 @@
                    android:id="@+id/V580"
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
-                   android:backgroundTint="@color/white"
+                   app:buttonTint="@color/black_80"
                    android:text="V5 80%"
                    android:textColor="@color/white">
 
