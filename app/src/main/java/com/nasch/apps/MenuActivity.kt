@@ -6,7 +6,8 @@ import android.os.Bundle
 import android.widget.Button
 import com.nasch.apps.IMC.IMC
 import com.nasch.apps.boardGamesApp.boardGamesActivity
-import com.nasch.apps.boardGamesApp.colorPaletteActivity
+import com.nasch.apps.colorPalette.ColorPalette
+
 
 class MenuActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,17 +18,22 @@ class MenuActivity : AppCompatActivity() {
         btnHelloApp.setOnClickListener { navigateToHelloApp() }
 
         var btnHello = findViewById<Button>(R.id.btnHola)
-        btnHello.setOnClickListener{ navigateToHola () }
+        btnHello.setOnClickListener { navigateToHola() }
 
         var btnIMC = findViewById<Button>(R.id.btnIMC)
-        btnIMC.setOnClickListener{ navigateToIMC () }
+        btnIMC.setOnClickListener { navigateToIMC() }
 
         var btnboardGamesActivity = findViewById<Button>(R.id.btnBoardGames)
-        btnboardGamesActivity.setOnClickListener{ navigateBoardGamesApp() }
+        btnboardGamesActivity.setOnClickListener { navigateBoardGamesApp() }
 
         var btnColorPalette = findViewById<Button>(R.id.btnColorPalette)
-        btnColorPalette.setOnClickListener{ navigateToColorPalette() }
+        btnColorPalette.setOnClickListener { navigateToColorPalette() }
 
+    }
+
+    private fun navigateToColorPalette() {
+        var intent = Intent(this, ColorPalette::class.java)
+        startActivity(intent)
     }
 
     private fun navigateToIMC() {
@@ -45,13 +51,9 @@ class MenuActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
-    private fun navigateBoardGamesApp(){
+    private fun navigateBoardGamesApp() {
         var intent = Intent(this, boardGamesActivity::class.java)
         startActivity(intent)
     }
 
-    private fun navigateToColorPalette() {
-        var intent = Intent(this, colorPaletteActivity::class.java)
-        startActivity(intent)
-    }
 }
