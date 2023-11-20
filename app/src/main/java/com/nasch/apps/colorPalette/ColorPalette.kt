@@ -26,15 +26,6 @@ class ColorPalette : AppCompatActivity() {
     private lateinit var cvH3: CardView
     private lateinit var colorButton: Button
 
-    private lateinit var H120 : RadioButton
-    private lateinit var H250 : RadioButton
-    private lateinit var H380 : RadioButton
-    private lateinit var V120 : RadioButton
-    private lateinit var V235 : RadioButton
-    private lateinit var V350 : RadioButton
-    private lateinit var V465 : RadioButton
-    private lateinit var V580 : RadioButton
-
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
