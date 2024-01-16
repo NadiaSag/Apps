@@ -70,6 +70,13 @@
     <color name="green_65">#A600FF00</color>
     <color name="green_80">#CC00FF00</color>
 
+    <!--SuperheroApp-->
+    <color name="superhero_stat_intelligence">#00ff00</color>
+    <color name="superhero_stat_strength">#FF0000</color>
+    <color name="superhero_stat_speed">#E88B00</color>
+    <color name="superhero_stat_durability">#03A9F4</color>
+    <color name="superhero_stat_power">#FFEB3B</color>
+    <color name="superhero_stat_combat">#673AB7</color>
 
 
 

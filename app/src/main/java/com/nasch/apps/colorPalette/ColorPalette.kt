@@ -17,6 +17,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.nasch.apps.R
 
 
+
 class ColorPalette : AppCompatActivity() {
 
     private lateinit var verticalBarsAdapter: VerticalBarsAdapter

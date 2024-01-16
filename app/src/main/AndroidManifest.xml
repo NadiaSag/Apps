@@ -2,9 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
+        android:enableOnBackInvokedCallback="true"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -12,6 +15,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Apps"
         tools:targetApi="31">
+        <activity
+            android:name=".item_movie"
+            android:exported="false" />
+        <activity
+            android:name=".ConsumoAPIs.ActivityConsumoAPIs"
+            android:exported="false" />
+        <activity
+            android:name=".ConsumoAPIs.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SuperheroListActivity.DetailSuperheroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SuperheroListActivity.SuperheroActivity"
+            android:exported="false" />
         <activity
             android:name=".colorPalette.DialogChangeColor"
             android:exported="false" />
