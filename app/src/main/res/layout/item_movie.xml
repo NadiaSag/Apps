@@ -8,6 +8,13 @@
     app:cardCornerRadius="16dp"
     android:layout_margin="24dp"
     >
+    <ImageView
+        android:id="@+id/ivCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_gravity="center"
+        android:src="@drawable/camera"/>
 
     <ImageView
         android:id="@+id/ivMovie"
@@ -23,39 +30,52 @@
     </ImageView>
 
     <LinearLayout
+        android:background="@color/black_20"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:paddingTop="40dp">
+        android:paddingTop="40dp"
+        android:paddingBottom="40dp"
+        android:weightSum="4">
         <TextView
+            android:layout_weight="3"
             android:fontFamily="sans-serif-condensed-medium"
             android:id="@+id/tvTitle"
             android:gravity="center"
+            android:shadowColor="#000000"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="3"
+            android:elegantTextHeight="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:maxLines="1"
-            android:singleLine="true"
             android:text="Title"
             android:padding="14dp"
             android:textColor="@color/white"
             android:textAllCaps="true"
-            android:textSize="30sp"
-            android:layout_marginBottom="300dp"/>
-        <TextView
+            android:textSize="40sp"
+            />
 
-            android:background="@color/black_50"
+        <TextView
+            android:layout_weight="1"
+            android:shadowColor="#000000"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="3"
             android:id="@+id/tvGenre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:maxLines="1"
-            android:singleLine="true"
             android:text="Genre"
             android:padding="10dp"
             android:fontFamily="sans-serif-condensed-medium"
-            android:textColor="@color/yellow_80"
+            android:textColor="#FFFF00"
             android:textSize="30sp"/>
         <TextView
-            android:background="@color/black_50"
+            android:layout_weight="1"
+            android:shadowColor="#000000"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="3"
             android:id="@+id/tvYear"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -64,10 +84,15 @@
             android:singleLine="true"
             android:text="Year"
             android:padding="10dp"
-            android:textColor="@color/yellow_80"
+            android:textColor="#FFFF00"
             android:textSize="30sp"/>
         <TextView
-            android:background="@color/black_50"
+            android:layout_weight="1"
+            android:id="@+id/tvratings"
+            android:shadowColor="#000000"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-condensed-medium"
@@ -76,26 +101,37 @@
             android:text="Ratings"
             android:gravity="center"
             android:padding="10dp"
-            android:textColor="@color/yellow_80"
+            android:textColor="#FFFF00"
             android:textSize="30sp"/>
         <LinearLayout
-            android:background="@color/black_50"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <TextView
+
+                android:shadowColor="#000000"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="3"
                 android:paddingStart="20dp"
                 android:id="@+id/tvSource1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:textColor="@color/white"
                 android:fontFamily="sans-serif-condensed-medium">
 
             </TextView>
             <TextView
+                android:textAlignment="center"
+                android:shadowColor="#000000"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="3"
                 android:fontFamily="sans-serif-condensed-medium"
-
+                android:textColor="@color/white"
                 android:id="@+id/tvValue1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -107,14 +143,19 @@
         </LinearLayout>
         <LinearLayout
 
-            android:background="@color/black_50"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            >
 
             <TextView
+                android:shadowColor="#000000"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="3"
                 android:paddingStart="20dp"
-
+                android:textColor="@color/white"
                 android:id="@+id/tvSource2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -124,8 +165,14 @@
 
             </TextView>
             <TextView
-                android:fontFamily="sans-serif-condensed-medium"
+                android:textAlignment="center"
 
+                android:shadowColor="#000000"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="3"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="@color/white"
                 android:id="@+id/tvValue2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -137,16 +184,19 @@
         </LinearLayout>
         <LinearLayout
 
-
-            android:background="@color/black_50"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_weight="1">
+            >
 
             <TextView
+                android:shadowColor="#000000"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="3"
                 android:paddingStart="20dp"
                 android:id="@+id/tvSource3"
+                android:textColor="@color/white"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -154,7 +204,12 @@
 
             </TextView>
             <TextView
-
+                android:textAlignment="center"
+                android:shadowColor="#000000"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="3"
+                android:textColor="@color/white"
                 android:fontFamily="sans-serif-condensed-medium"
                 android:id="@+id/tvValue3"
                 android:layout_width="match_parent"
@@ -165,6 +220,7 @@
 
 
         </LinearLayout>
+
 
     </LinearLayout>
 

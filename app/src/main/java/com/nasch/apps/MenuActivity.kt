@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import com.nasch.apps.ConsumoAPIs.ActivityConsumoAPIs
 import com.nasch.apps.IMC.IMC
+import com.nasch.apps.Settings.SettingsActivity
 import com.nasch.apps.SuperheroListActivity.SuperheroActivity
 import com.nasch.apps.boardGamesApp.boardGamesActivity
 import com.nasch.apps.colorPalette.ColorPalette
@@ -39,6 +40,14 @@ class MenuActivity : AppCompatActivity() {
         var btnMovie = findViewById<Button>(R.id.btnMovie)
         btnMovie.setOnClickListener { navigateToMovieApp() }
 
+        var btnSettings = findViewById<Button>(R.id.btnSettings)
+        btnSettings.setOnClickListener { navigateToSettingsApp() }
+
+    }
+
+    private fun navigateToSettingsApp() {
+        var intent = Intent(this, SettingsActivity::class.java)
+        startActivity(intent)
     }
 
     private fun navigateToMovieApp() {

@@ -63,9 +63,6 @@ class ActivityConsumoAPIs : AppCompatActivity() {
                     if (response != null) {
                         Log.i("Cuerpo de la consulta", response.toString())
                         runOnUiThread {
-                            // Actualiza la interfaz de usuario con los datos de la respuesta
-                            // Asegúrate de tener un método en tu adaptador para actualizar la lista
-                            // adapter.updateList(response.movies)
                             movieListMutable.add(response)
                             adapter.updateList(movieListMutable)
                             binding.progressBar.isVisible = false
