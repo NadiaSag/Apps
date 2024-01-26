@@ -39,7 +39,7 @@ class ActivityConsumoAPIs : AppCompatActivity() {
                 return false
             }
             override fun onQueryTextChange(newText: String?) = false
-            //https://www.omdbapi.com/?t=it&plot=full&apikey=642b022c
+
         })
 
         adapter = ConsumoApisAdapter(emptyList())

@@ -18,7 +18,6 @@ class ConsumoApisViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 
     @SuppressLint("SuspiciousIndentation")
     fun bind(movieDataResponse: movieDataResponse) {
-        // Establece los valores predeterminados "N/A" para limpiar cualquier valor anterior
         binding.tvSource1.text = " "
         binding.tvValue1.text = " "
         binding.tvSource2.text = " "
@@ -58,7 +57,7 @@ class ConsumoApisViewHolder(view: View) : RecyclerView.ViewHolder(view) {
                 }
             }
         } else {
-            binding.tvTitle.text = "Ooopss it seems this movie does not exist"
+            binding.tvTitle.text = "Ooopss no results"
             binding.tvGenre.text = ""
             binding.tvYear.text = ""
             binding.tvratings.text = ""
