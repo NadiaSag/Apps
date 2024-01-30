@@ -26,7 +26,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        android:contentDescription="@string/camera_logo"/>
 
     <TextView
 
@@ -35,7 +36,7 @@
         android:text="@string/search_a_movie"
         android:fontFamily="sans-serif-condensed-medium"
         android:textAllCaps="true"
-        android:textColor="#555555"
+        android:textColor="@color/yellow_65"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

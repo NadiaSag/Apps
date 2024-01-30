@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     app:cardBackgroundColor="@color/black"
     app:cardCornerRadius="16dp"
-    android:layout_margin="24dp"
-    >
+    android:layout_margin="24dp">
     <ImageView
         android:id="@+id/ivCamera"
         android:layout_width="wrap_content"
@@ -41,7 +40,7 @@
             android:fontFamily="sans-serif-condensed-medium"
             android:id="@+id/tvTitle"
             android:gravity="center"
-            android:shadowColor="#000000"
+            android:shadowColor="@color/black"
             android:shadowDx="3"
             android:shadowDy="3"
             android:shadowRadius="3"
@@ -58,7 +57,7 @@
         <TextView
             android:layout_marginStart="20dp"
             android:layout_weight="1"
-            android:shadowColor="#000000"
+            android:shadowColor="@color/black"
             android:shadowDx="3"
             android:shadowDy="3"
             android:shadowRadius="3"
@@ -72,7 +71,7 @@
         <TextView
             android:layout_marginStart="20dp"
             android:layout_weight="1"
-            android:shadowColor="#000000"
+            android:shadowColor="@color/black"
             android:shadowDx="3"
             android:shadowDy="3"
             android:shadowRadius="3"
@@ -88,7 +87,7 @@
         <TextView
             android:layout_weight="1"
             android:id="@+id/tvratings"
-            android:shadowColor="#000000"
+            android:shadowColor="@color/black"
             android:shadowDx="3"
             android:shadowDy="3"
             android:shadowRadius="3"
@@ -110,7 +109,7 @@
 
             <TextView
 
-                android:shadowColor="#000000"
+                android:shadowColor="@color/black"
                 android:shadowDx="3"
                 android:shadowDy="3"
                 android:shadowRadius="3"
@@ -126,7 +125,7 @@
             </TextView>
             <TextView
                 android:textAlignment="center"
-                android:shadowColor="#000000"
+                android:shadowColor="@color/black"
                 android:shadowDx="3"
                 android:shadowDy="3"
                 android:shadowRadius="3"
@@ -150,7 +149,7 @@
             >
 
             <TextView
-                android:shadowColor="#000000"
+                android:shadowColor="@color/black"
                 android:shadowDx="3"
                 android:shadowDy="3"
                 android:shadowRadius="3"
@@ -167,7 +166,7 @@
             <TextView
                 android:textAlignment="center"
 
-                android:shadowColor="#000000"
+                android:shadowColor="@color/black"
                 android:shadowDx="3"
                 android:shadowDy="3"
                 android:shadowRadius="3"
@@ -186,11 +185,10 @@
 
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            >
+            android:orientation="horizontal">
 
             <TextView
-                android:shadowColor="#000000"
+                android:shadowColor="@color/black"
                 android:shadowDx="3"
                 android:shadowDy="3"
                 android:shadowRadius="3"
@@ -206,7 +204,7 @@
             </TextView>
             <TextView
                 android:textAlignment="center"
-                android:shadowColor="#000000"
+                android:shadowColor="@color/black"
                 android:shadowDx="3"
                 android:shadowDy="3"
                 android:shadowRadius="3"

@@ -23,4 +23,5 @@
     <string name="year">Year</string>
     <string name="ratings">Ratings</string>
     <string name="search_a_movie">Search a movie</string>
+    <string name="camera_logo">camera logo</string>
 </resources>
