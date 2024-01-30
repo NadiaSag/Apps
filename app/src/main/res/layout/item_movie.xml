@@ -56,6 +56,7 @@
             />
 
         <TextView
+            android:layout_marginStart="20dp"
             android:layout_weight="1"
             android:shadowColor="#000000"
             android:shadowDx="3"
@@ -69,6 +70,7 @@
             android:textColor="#FFFF00"
             android:textSize="30sp"/>
         <TextView
+            android:layout_marginStart="20dp"
             android:layout_weight="1"
             android:shadowColor="#000000"
             android:shadowDx="3"
